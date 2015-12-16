@@ -25,6 +25,9 @@ if (name != null) storage.local.theName = name
 //Now let's obtain the client IP from the http request header
 var ip = request.headers["x-forwarded-for"];
 
+
+//EDITED THIS FILE HELLO
+
 //Let's see now how to make a request to a 3rd party web service
 
 //The request object below will be used to make an HTTP call that will do a country lookup based on the IP 
