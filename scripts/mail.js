@@ -3,6 +3,7 @@
 write=nobody
 execute=authenticated 
   **/ 
+ 
  var time = new Date();
 var mailBody = "Hello,<br>An intrusion was detected at " + time;
 
