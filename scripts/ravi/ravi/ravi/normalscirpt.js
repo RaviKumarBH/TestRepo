@@ -1,0 +1,1 @@
+return 'blokcy message'	
