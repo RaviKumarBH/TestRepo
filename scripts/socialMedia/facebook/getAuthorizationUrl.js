@@ -30,4 +30,5 @@ var credentials = {
   "apiSecret": "62d55f6f76433f42c644ef2e9caf91bf"
 };
 
-return fb.getAuthorizationUrl(callbackUrl, scope, state, credentials);			
+return fb.getAuthorizationUrl(callbackUrl, scope, state, credentials);
+//test			
