@@ -7,3 +7,4 @@ execute=authenticated
 var content= '//myfile is in'; var response = apsdb.httpRespond(); response.write(content);response.close();		
 
 var a=10;
+var b=10;
