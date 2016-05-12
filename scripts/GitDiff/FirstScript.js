@@ -1,2 +1,0 @@
-
- return "my gitdiff feature";			

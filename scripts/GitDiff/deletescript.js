@@ -3,6 +3,7 @@
 write=nobody
 execute=authenticated 
   **/ 
+ 
  console.log("my message");
 //my message
 //my comment			

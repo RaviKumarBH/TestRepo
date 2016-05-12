@@ -3,7 +3,8 @@
 write=nobody
 execute=authenticated 
   **/ 
- function myfun()
-{
+ 
+ function funtion1123(){
+  console.log("my message fun 1");
   return "ravi";
 }			
