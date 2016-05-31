@@ -3,7 +3,6 @@
 write=nobody
 execute=anonymous 
   **/ 
- 
  //First, we'll require the 'http' library to use later for calling a 3rd party webservice
 var http = require("http");
 //my comment
@@ -47,6 +46,7 @@ if(response.status == "200"){
  country = result.country;
 }
 
+
 //Finally, let's construct the response that this script will return
 var scriptResponse = "Hello";
 if(storage.local.theName != null) scriptResponse += " " + storage.local.theName;
@@ -55,4 +55,3 @@ scriptResponse += "!";
 
 return scriptResponse;
 //test			
-			
